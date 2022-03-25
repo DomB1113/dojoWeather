@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.topnav {
+    display: flex;
+    height: 100px;
+    background-color: #9fc5f8;
+    color: white;
+    align-items: center;
+}
+
+.topnav h1{
+    margin-left: 400px;
+    font-size: 70px;
+    margin-right: 380px;
+}
+.topnav h3{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.cityrow{
+    margin-left: 400px;
+    border-bottom: 5px black;
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    height: 100px;
+    width: 1180px;
+}
+.cityrow h1{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 750px;
+}
+.cityrow p{
+    font-size: 20px;
+}
+
+#temperaturetype {
+    height: 40px;
+    margin-left: 20px;
+}
+.underline{
+    background-color: black;
+    height: 5px;
+    width: 1180px;
+    position: relative;
+    left: 400px;
+    border-radius: 100%;
+}
+.maincontainer{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.todaycolumn{
+    background-color: #eeeeee;
+    height: 400px;
+    width: 250px;
+}
+.todaycolumn h3{
+    font-size: 40px;
+    margin-left: 70px;
+}
+.weatherpic{
+    border-radius: 50%;
+    height: 200px;
+    margin-left: 25px;
+}
+.detailtext{
+    font-size: 30px;
+    margin-left: 60px;
+}
+.temp{
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.highs{
+    color: red;
+}
+.lows{
+    color: blue;
+}
+
+.highs::after .lows::after {
+    content: "°";
+} 
+
+
+.tomorrowcolumn{
+    background-color: #eeeeee;
+    height: 400px;
+    width: 250px;
+    margin-left: 40px;
+}
+.tomorrowcolumn h3{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.Fridaycolumn{
+    background-color: #eeeeee;
+    height: 400px;
+    width: 250px;
+    margin-left: 40px;
+}
+
+.Fridaycolumn h3{
+    font-size: 40px;
+    margin-left: 65px;
+}
+
+.saturdaycolumn{
+    background-color: #eeeeee;
+    height: 400px;
+    width: 250px;
+    margin-left: 40px;
+}
+.saturdaycolumn h3{
+    font-size: 40px;
+    margin-left: 45px;
+}
+
+.cookiecontainer{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 400px;
+    background-color: #eeeeee;
+    height: 140px;
+    width: 1150px;
+    border: 3px solid rgb(75, 21, 21);  
+}
+.cookieimg img{
+    height: 80px;
+    padding: 25px;
+}
+.cookietext{
+    font-size: 25px;
+    width: 880px;
+}
+.cookiebtn{
+    position: relative;
+    top: 40px;
+}
+#cookiebutton{
+    background-color: #697ef7;
+    color: white;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    height: 35px;
+    width: 100px;
+}
